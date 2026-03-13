@@ -1,7 +1,7 @@
 import { Phone } from "lucide-react";
 
-const PHONE_NUMBER = "tel:+18001234567";
-const PHONE_DISPLAY = "1-800-123-4567";
+const PHONE_NUMBER = "tel:+18337084183";
+const PHONE_DISPLAY = "(833) 708-4183";
 
 const StickyCallBar = () => {
   return (
@@ -13,7 +13,7 @@ const StickyCallBar = () => {
           className="flex items-center justify-center gap-2 rounded-full bg-primary py-3 text-sm font-bold text-primary-foreground animate-pulse-glow w-full"
         >
           <Phone className="h-5 w-5" />
-          CALL SUPPORT NOW — {PHONE_DISPLAY}
+          Call Now {PHONE_DISPLAY}
         </a>
       </div>
 
@@ -23,7 +23,7 @@ const StickyCallBar = () => {
         className="hidden md:flex fixed bottom-8 right-8 z-50 items-center gap-3 rounded-full bg-primary px-6 py-4 text-sm font-bold text-primary-foreground animate-pulse-glow hover:scale-105 transition-transform shadow-2xl"
       >
         <Phone className="h-5 w-5" />
-        Call Now
+        Call Now {PHONE_DISPLAY}
       </a>
     </>
   );

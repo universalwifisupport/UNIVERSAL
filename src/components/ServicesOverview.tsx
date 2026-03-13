@@ -1,7 +1,7 @@
 import { Wifi, Monitor, Router, Wrench, Phone as PhoneIcon, Lightbulb } from "lucide-react";
 import { Phone } from "lucide-react";
 
-const PHONE_NUMBER = "tel:+18001234567";
+const PHONE_NUMBER = "tel:+18337084183";
 
 const services = [
   {
@@ -117,7 +117,7 @@ const ServicesOverview = () => {
             className="inline-flex items-center justify-center gap-3 rounded-full bg-primary px-8 py-4 text-base font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform"
           >
             <Phone className="h-5 w-5" />
-            GET INSTANT ASSISTANCE
+            Call Now (833) 708-4183
           </a>
           <p className="text-xs text-muted-foreground mt-4 italic">
             Independent third-party service • Not affiliated with any ISP or cable provider

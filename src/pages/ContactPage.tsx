@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
 import { useState } from "react";
 
-const PHONE_NUMBER = "tel:+18001234567";
+const PHONE_NUMBER = "tel:+18337084183";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ const ContactPage = () => {
             <a href={PHONE_NUMBER} className="glass-card p-8 text-center hover:scale-105 transition-transform group">
               <Phone className="h-12 w-12 text-primary mx-auto mb-4 group-hover:animate-pulse" />
               <h3 className="font-display text-xl font-bold text-foreground mb-2">Call Us</h3>
-              <p className="text-primary text-xl font-semibold">1-800-123-4567</p>
+              <p className="text-primary text-xl font-semibold">(833) 708-4183</p>
               <p className="text-muted-foreground text-sm mt-2">Fastest way to get help</p>
             </a>
 

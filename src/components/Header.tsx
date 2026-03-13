@@ -3,8 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Phone, Menu, X } from "lucide-react";
 import Logo from "./Logo";
 
-const PHONE_NUMBER = "tel:+18001234567";
-const PHONE_DISPLAY = "1-800-123-4567";
+const PHONE_NUMBER = "tel:+18337084183";
+const PHONE_DISPLAY = "(833) 708-4183";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -60,7 +60,7 @@ const Header = () => {
             className="flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground electric-glow transition-transform hover:scale-105"
           >
             <Phone className="h-4 w-4" />
-            {PHONE_DISPLAY}
+            Call Now {PHONE_DISPLAY}
           </a>
         </nav>
 
@@ -93,7 +93,7 @@ const Header = () => {
               className="flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground mt-2"
             >
               <Phone className="h-4 w-4" />
-              Call Now: {PHONE_DISPLAY}
+              Call Now {PHONE_DISPLAY}
             </a>
           </nav>
         </div>

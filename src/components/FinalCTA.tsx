@@ -1,8 +1,8 @@
 import { Phone } from "lucide-react";
 import streamingImage from "@/assets/streaming.jpg";
 
-const PHONE_NUMBER = "tel:+18001234567";
-const PHONE_DISPLAY = "1-800-123-4567";
+const PHONE_NUMBER = "tel:+18337084183";
+const PHONE_DISPLAY = "(833) 708-4183";
 
 const FinalCTA = () => {
   return (
@@ -30,7 +30,7 @@ const FinalCTA = () => {
             className="mt-10 inline-flex items-center gap-3 rounded-full bg-primary px-12 py-6 text-xl font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform"
           >
             <Phone className="h-7 w-7" />
-            {PHONE_DISPLAY}
+            Call Now {PHONE_DISPLAY}
           </a>
           <p className="mt-6 text-primary-foreground/40 text-sm">
             Available 24/7 • Average wait time under 60 seconds

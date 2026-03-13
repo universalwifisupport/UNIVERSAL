@@ -41,8 +41,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-primary-foreground mb-4 text-sm uppercase tracking-wider">Contact</h4>
             <div className="flex flex-col gap-3">
-              <a href="tel:+18001234567" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
-                <Phone className="h-4 w-4 text-primary" /> 1-800-123-4567
+              <a href="tel:+18337084183" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
+                <Phone className="h-4 w-4 text-primary" /> (833) 708-4183
               </a>
               <a href="mailto:help@universalwifisupport.com" className="flex items-center gap-2 text-sm hover:text-primary transition-colors">
                 <Mail className="h-4 w-4 text-primary" /> help@universalwifisupport.com

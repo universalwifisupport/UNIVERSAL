@@ -4,8 +4,8 @@ import technicianImage from "@/assets/technician-help.jpg";
 import routerImage from "@/assets/router-setup.jpg";
 import officeImage from "@/assets/home-office.jpg";
 
-const PHONE_NUMBER = "tel:+18001234567";
-const PHONE_DISPLAY = "1-800-123-4567";
+const PHONE_NUMBER = "tel:+18337084183";
+const PHONE_DISPLAY = "(833) 708-4183";
 
 const steps = [
   {
@@ -98,7 +98,7 @@ const HowItWorksPage = () => {
               className="inline-flex items-center gap-3 rounded-full bg-primary px-10 py-5 text-lg font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform"
             >
               <Phone className="h-6 w-6" />
-              CALL NOW — {PHONE_DISPLAY}
+              Call Now {PHONE_DISPLAY}
             </a>
           </div>
         </div>
@@ -158,7 +158,7 @@ const HowItWorksPage = () => {
               className="inline-flex items-center gap-3 rounded-full bg-primary px-10 py-5 text-lg font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform"
             >
               <Phone className="h-6 w-6" />
-              GET HELP NOW — {PHONE_DISPLAY}
+              Call Now {PHONE_DISPLAY}
             </a>
           </div>
         </div>
@@ -182,7 +182,7 @@ const HowItWorksPage = () => {
             className="mt-8 inline-flex items-center gap-3 rounded-full bg-primary px-10 py-5 text-lg font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform"
           >
             <Phone className="h-6 w-6" />
-            CALL {PHONE_DISPLAY}
+            Call Now {PHONE_DISPLAY}
           </a>
         </div>
       </section>

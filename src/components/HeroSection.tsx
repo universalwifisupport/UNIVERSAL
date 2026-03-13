@@ -1,8 +1,8 @@
 import { Phone, Shield, Users, Zap, Wifi, ChevronRight } from "lucide-react";
 import heroImage from "@/assets/hero-family.jpg";
 
-const PHONE_NUMBER = "tel:+18001234567";
-const PHONE_DISPLAY = "1-800-123-4567";
+const PHONE_NUMBER = "tel:+18337084183";
+const PHONE_DISPLAY = "(833) 708-4183";
 
 const HeroSection = () => {
   return (
@@ -88,7 +88,7 @@ const HeroSection = () => {
                     className="flex items-center justify-center gap-3 w-full rounded-full bg-primary px-8 py-4 text-base font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform"
                   >
                     <Phone className="h-5 w-5" />
-                    TALK TO AN ADVISOR
+                    Call Now {PHONE_DISPLAY}
                     <ChevronRight className="h-5 w-5" />
                   </a>
                 </div>

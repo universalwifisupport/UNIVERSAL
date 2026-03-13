@@ -116,7 +116,7 @@ export const RefundPage = () => (
     
     <h3 className="font-display text-xl font-bold text-foreground mt-8 mb-4">How to Request a Refund</h3>
     <p className="text-foreground/80">
-      Contact us within 30 days of your service at <a href="tel:+18001234567" className="text-primary hover:underline">1-800-123-4567</a> or <a href="mailto:refunds@universalwifisupport.com" className="text-primary hover:underline">refunds@universalwifisupport.com</a> with your transaction details and reason for the refund request.
+      Contact us within 30 days of your service at <a href="tel:+18337084183" className="text-primary hover:underline">(833) 708-4183</a> or <a href="mailto:refunds@universalwifisupport.com" className="text-primary hover:underline">refunds@universalwifisupport.com</a> with your transaction details and reason for the refund request.
     </p>
     
     <h3 className="font-display text-xl font-bold text-foreground mt-8 mb-4">Processing Time</h3>

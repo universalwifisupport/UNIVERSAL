@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const PHONE_NUMBER = "tel:+18001234567";
+const PHONE_NUMBER = "tel:+18337084183";
 
 const faqs = [
   { q: "What services do you provide?", a: "We provide expert guidance and troubleshooting assistance for all internet and cable-related issues including outages, slow speeds, router setup, and billing questions." },
@@ -44,7 +44,7 @@ const FAQPage = () => {
           <div className="text-center mt-16">
             <p className="text-muted-foreground mb-6">Still have questions?</p>
             <a href={PHONE_NUMBER} className="inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-lg font-bold text-primary-foreground electric-glow hover:scale-105 transition-transform">
-              <Phone className="h-5 w-5" /> Call Us
+              <Phone className="h-5 w-5" /> Call Now (833) 708-4183
             </a>
           </div>
         </div>

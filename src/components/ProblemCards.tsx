@@ -1,6 +1,6 @@
 import { Wifi, WifiOff, Tv, Settings, Phone, AlertTriangle } from "lucide-react";
 
-const PHONE_NUMBER = "tel:+18001234567";
+const PHONE_NUMBER = "tel:+18337084183";
 
 const problems = [
   { icon: WifiOff, title: "Internet Outage", desc: "Complete loss of connectivity" },
